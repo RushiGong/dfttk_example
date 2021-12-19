@@ -1,5 +1,6 @@
 {
     "E-V": {
+        "MagState": "",
         "bandgaps": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
         "energies": [-3.62447747, -3.69741671, -3.73510252, -3.74615732, -3.73698319, -3.71266821, -3.67716803, -3.63430292],
         "kpoints": [[20, 20, 20]],
@@ -46,9 +47,9 @@
 
     "NEDOS": 5001,
     "POSCAR": "Al1\n1.0\n0.000000 2.019900 2.019900\n2.019900 0.000000 2.019900\n2.019900 2.019900 0.000000\nAl\n1\ndirect\n0.000000 0.000000 0.000000 Al\n",
-    "Postprocess time": "2021-10-08 14:40:26.885583",
+    "Postprocess time": "2021-11-03 12:31:21.522490",
     "bandgap": 0.0,
-    "command": "dfttk thfind -tag 3c01629a-b287-41f5-8826-d77912f54177 -get -plot DFTTK -fitF -expt ExptData.json",
+    "command": "dfttk thfind -tag 3c01629a-b287-41f5-8826-d77912f54177 -get -plot DFTTK -fitF -expt ExptData.json -renew",
     "kpoints": {
         "generation_style": "Monkhorst",
         "kpoints": [20, 20, 20]
